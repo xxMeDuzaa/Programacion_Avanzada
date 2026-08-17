@@ -4,5 +4,6 @@
 //                                                          //
 //          Alumna: Mas Duarte, Melina                      //
 
-// PUNTO 1
+
+// PUNTO 1: Consumo de Datos desde una API
 console.log ("----------------- Punto 1 ---------------------");
