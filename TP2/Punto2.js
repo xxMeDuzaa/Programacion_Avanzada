@@ -80,3 +80,37 @@ despedir('Melina');
 despedir('Ana');
 
 
+// PUNTO 8
+console.log("------------------ Punto 8 ------------------");
+function procesarArray(array, funcion) {
+    for (let i = 0; i < array.length; i++) {
+        funcion(array[i]);
+    }
+}
+
+function multiplicarxDos(numero) {
+    console.log(numero * 2);
+}
+
+procesarArray([1, 2, 3, 4], multiplicarxDos);
+
+
+// PUNTO 9
+console.log("------------------ Punto 9 ------------------");
+function crearMultiplicador(x) {
+    function multiplicar(numero) {
+        console.log(numero * x);
+    }
+    multiplicar(y);
+}
+y=10                              //valor de multiplicar
+crearMultiplicador(5);           //valor de x
+
+
+// PUNTO 10
+console.log("------------------ Punto 10 ------------------");
+const sumarAnonima = function(a, b) {
+    console.log(a + b);
+};
+
+sumarAnonima(10, 15);
