@@ -107,13 +107,13 @@ console.log("Original sin alteración:", estudiante.nombre, "-", estudiante.dire
 
 //PUNTO 10
 console.log ("----------------- Punto 10 ---------------------");
-Object.defineProperty(libro, "añoPublicacion", {   //definicion de reglas de acceso al objeto
+Object.defineProperty(libro, "anioPublicacion", {   //definicion de reglas de acceso al objeto
   get() {
-    return this.añoDePublicacion;
+    return this.anioDePublicacion;
   },
-  set(nuevoAño) {
-    if (typeof nuevoAño === "number" && nuevoAño > 0) {
-      this.añoDePublicacion = nuevoAño;
+  set(nuevoAnio) {
+    if (typeof nuevoAnio === "number" && nuevoAnio > 0) {
+      this.anioDePublicacion = nuevoAnio;
     } else {
       console.log("Año no válido");
     }
@@ -122,7 +122,7 @@ Object.defineProperty(libro, "añoPublicacion", {   //definicion de reglas de ac
 
 console.log("Año de publicación actual:", libro.anio); //antes de modificar
 
-libro.añoPublicacion = 1970; //le asigna la modificacion del  dato
+libro.anioPublicacion = 1970; //le asigna la modificacion del  dato
 
 // Uso del getter
-console.log("Año de publicación actualizado vía Getter:", libro.añoPublicacion); //printea la modificacion
+console.log("Año de publicación actualizado vía Getter:", libro.anioPublicacion); //printea la modificacion
