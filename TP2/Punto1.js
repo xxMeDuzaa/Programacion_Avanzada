@@ -1,6 +1,7 @@
-//                                  //
-//   01: Ejercicios sobre Objetos   //
-//                                  //
+//                                     //
+//   01: Ejercicios sobre Objetos      //
+//                                     //
+//   Alumna: Mas Duarte, Melina        //
 
 // PUNTO 1
 console.log ("----------------- Punto 1 ---------------------");

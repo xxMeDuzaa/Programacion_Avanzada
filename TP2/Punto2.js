@@ -1,6 +1,7 @@
-//                                    //
-//   02: Ejercicios sobre Funciones   //
-//                                    //
+//                                          //
+//   02: Ejercicios sobre Funciones         //
+//                                          //
+//    Alumna: Mas Duarte, Melina            //
 
 // PUNTO 1
 console.log ("----------------- Punto 1 ---------------------");
